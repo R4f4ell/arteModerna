@@ -1,0 +1,35 @@
+@use '../../../global/variables';
+
+.sectionDois{
+    background-color: variables.$corSiteGlobal;
+    color: variables.$corTextoBranco;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        width: 45%;
+        height: 40%;
+
+        p{
+            &:nth-child(1){
+                font-size: 20px;
+            }
+
+            &:nth-child(2){
+                font-size: 40px;
+            }
+            
+            &:nth-child(3){
+                font-size: 14px;
+                text-align: justify;
+            }
+        }
+    }
+}
