@@ -1,0 +1,27 @@
+@use "../../../global/variables";
+
+.sectionCinco{
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/images/pages/index/imgSectionCinco.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: variables.$corTextoBranco;
+
+    .conteudoSectionCinco{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        width: 80%;
+        font-family: 'Merriweather';
+
+        div{
+            background-color: white;
+            flex-grow: 2;
+            height: 45px;
+        }
+    }
+}

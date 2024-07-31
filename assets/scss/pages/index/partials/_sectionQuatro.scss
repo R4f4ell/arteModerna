@@ -3,4 +3,44 @@
 .sectionQuatro{
     height: 100%;
     background-color: variables.$corSectionBrancoMaisEscuro;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .imagemSectionQuatro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+
+        img{
+            max-width: 100%;
+            height: 100%;
+            border-radius: 5px;
+        }
+    }
+
+    .textoSectionQuatro{
+        text-align: center;
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+
+        p{
+
+            &:nth-child(1){
+                color: variables.$corTextoPretoForte;
+                font-size: 40px;
+                font-family: 'Merriweather';
+            }
+
+            &:nth-child(2){
+                color: variables.$corTextoPretoFraco;
+                font-size: 13px;
+            }
+        }
+    }
 }

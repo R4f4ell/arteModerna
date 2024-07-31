@@ -10,25 +10,26 @@
 
     div{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 15px;
+        gap: 45px;
         width: 45%;
         height: 40%;
 
         p{
             &:nth-child(1){
-                font-size: 20px;
+                font-size: 18px;
             }
 
             &:nth-child(2){
                 font-size: 40px;
+                font-family: 'Merriweather';
             }
             
             &:nth-child(3){
                 font-size: 14px;
-                text-align: justify;
+                text-align: center;
             }
         }
     }

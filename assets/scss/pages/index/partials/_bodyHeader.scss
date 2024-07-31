@@ -3,10 +3,11 @@
 body{
     position: relative;
     height: 100vh;
-    font-family: 'Merriweather';
 
-    header{
-        position: absolute;
+        header{
+        background-color: variables.$corSiteGlobal;
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.322);
+        position: fixed;
         top: 0;
         display: flex;
         align-items: center;
@@ -16,12 +17,12 @@ body{
         z-index: 2;
 
         nav > a{
-            margin: 0 10px;
             color: variables.$corTextoBranco;
+            margin: 0 10px;
             text-decoration: none;
-            font-family: 'Roboto';
             font-size: 14px;
             padding: 5px;
+            letter-spacing: 2px;
 
             &:hover{
                 border-bottom: 1px solid white;
