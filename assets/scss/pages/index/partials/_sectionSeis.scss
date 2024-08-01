@@ -1,0 +1,64 @@
+
+@use '../../../global/variables';
+@use '../../../global/fonts';
+
+.sectionSeis{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    height: 100%;
+    
+    .centro-img{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+        
+        
+        .imgJulia{
+            height: 100%;
+            width: 400px;
+            border-radius: 2px;
+        }
+    }
+    
+    .centro-texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        width: 40%;
+
+        div{    
+            .about{
+                font-size: 22px;
+                color: variables.$corSiteGlobal;
+            }
+
+            &:nth-child(2){
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                text-align: justify;
+                
+                h2{
+                    font-size: 45px;
+                    font-weight: 500;
+                }
+
+                p{
+                    color: variables.$corTextoPretoFraco;
+                }
+
+            }
+        }
+
+        .quote{
+            display: flex;
+            align-items: center;
+            width: 70%;
+        }
+    }
+
+}

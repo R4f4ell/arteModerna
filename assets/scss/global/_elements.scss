@@ -3,11 +3,6 @@
 button{
     width: 160px;
     height: 45px;
-
-    &:hover{
-        background-color: variables.$corSiteGlobal;
-        border: 1px solid variables.$corTextoBranco;
-        color: variables.$corTextoBranco;
-        transition: .2s;
-    }
+    border-radius: 5px;
+    cursor: pointer;
 }

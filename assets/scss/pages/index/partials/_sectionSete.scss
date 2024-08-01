@@ -1,0 +1,36 @@
+@use '../../../global/variables';
+
+.sectionSete{
+    background-color: variables.$corSectionBrancoMaisEscuro;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .textoSectionSete{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+        width: 550px;
+
+        p{
+            &:nth-child(1){
+                font-size: 25px;
+                color: variables.$corSiteGlobal;
+            }
+
+            &:nth-child(2){
+                font-size: 50px;    
+            }
+
+            &:nth-child(3){
+                text-align: center;
+                color: variables.$corTextoPretoFraco;
+            }
+        }
+    }
+}

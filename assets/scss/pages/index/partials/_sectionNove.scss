@@ -1,0 +1,56 @@
+@use '../../../global/variables';
+@use '../../../global/fonts';
+
+.sectionNove{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
+
+    .divUm{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 20px;
+        width: 35%;
+        height: 400px;
+
+        p{
+            &:nth-child(1){
+                font-size: 45px;
+            }
+
+            &:nth-child(2){
+                color: variables.$corTextoPretoFraco;
+            }
+        }
+    }
+
+    .divDois{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 35px;
+        width: 35%;
+        height: 400px;
+
+        p{
+            color: variables.$corTextoPretoFraco;
+
+            &:nth-child(1){
+                font-size: 30px;
+                
+            }
+        }
+
+        button{
+            background-color: transparent;
+            border: 1px solid black;
+
+            &:hover{
+                color: white;
+                background-color: variables.$corSiteGlobal;
+            }
+        }
+    }
+}

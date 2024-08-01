@@ -1,0 +1,58 @@
+@use '../../../global/variables';
+@use '../../../global/fonts';
+
+.sectionOito{
+    background-color: variables.$corSectionBrancoMaisEscuro;
+    width: 100%;
+    
+
+    .containerUm-sectOito, .containerDois-sectOito, .containerTres-sectOito{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 90%;
+        width: 100%;
+
+        .divImg{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+            height: 100%;
+
+            img{
+                width: 500px;
+                height: 600px;
+            }
+        }
+
+        .divText{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+            gap: 30px;
+
+            p{
+                &:nth-child(1){
+                    font-size: 30px;
+                    align-self: flex-start;
+                }
+
+                &:nth-child(2){
+                    color: variables.$corTextoPretoFraco;
+                }    
+            }
+        }
+    }
+
+    .containerDois-sectOito{
+        padding-top: 13rem;
+        flex-direction: row-reverse;
+    }
+
+    .containerTres-sectOito{
+        padding: 13rem 0 4rem 0;
+    }
+}

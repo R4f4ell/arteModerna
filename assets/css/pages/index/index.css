@@ -62,6 +62,13 @@ body header nav > a:hover {
   font-size: 14px;
   font-weight: normal;
 }
+.sectionUm .conteudo .h1 button:hover, .sectionUm .conteudo .h2 button:hover, .sectionUm .conteudo .paragrafosEButton button:hover {
+  background-color: #690D2C;
+  border: 1px solid white;
+  color: rgba(255, 255, 255, 0.8901960784);
+  transition: 0.2s;
+  cursor: pointer;
+}
 
 .sectionDois {
   background-color: #690D2C;
@@ -171,15 +178,188 @@ body header nav > a:hover {
   height: 45px;
 }
 
+@font-face {
+  font-family: "Merriweather";
+  src: url(/assets/fonts/Merriweather-Black.ttf);
+  src: url(/assets/fonts/LICENSE.txt);
+  src: url(/assets/fonts/OFL.txt);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(/assets/fonts/Roboto-Black.ttf);
+  src: url(/assets/fonts/LICENSE.txt);
+  src: url(/assets/fonts/OFL.txt);
+}
+.sectionSeis {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  height: 100%;
+}
+.sectionSeis .centro-img {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+.sectionSeis .centro-img .imgJulia {
+  height: 100%;
+  width: 400px;
+  border-radius: 2px;
+}
+.sectionSeis .centro-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  width: 40%;
+}
+.sectionSeis .centro-texto div .about {
+  font-size: 22px;
+  color: #690D2C;
+}
+.sectionSeis .centro-texto div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+}
+.sectionSeis .centro-texto div:nth-child(2) h2 {
+  font-size: 45px;
+  font-weight: 500;
+}
+.sectionSeis .centro-texto div:nth-child(2) p {
+  color: rgba(0, 0, 0, 0.5019607843);
+}
+.sectionSeis .centro-texto .quote {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.sectionSete {
+  background-color: #F2F2F2;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sectionSete .textoSectionSete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  width: 550px;
+}
+.sectionSete .textoSectionSete p:nth-child(1) {
+  font-size: 25px;
+  color: #690D2C;
+}
+.sectionSete .textoSectionSete p:nth-child(2) {
+  font-size: 50px;
+}
+.sectionSete .textoSectionSete p:nth-child(3) {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5019607843);
+}
+
+.sectionOito {
+  background-color: #F2F2F2;
+  width: 100%;
+}
+.sectionOito .containerUm-sectOito, .sectionOito .containerDois-sectOito, .sectionOito .containerTres-sectOito {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90%;
+  width: 100%;
+}
+.sectionOito .containerUm-sectOito .divImg, .sectionOito .containerDois-sectOito .divImg, .sectionOito .containerTres-sectOito .divImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
+.sectionOito .containerUm-sectOito .divImg img, .sectionOito .containerDois-sectOito .divImg img, .sectionOito .containerTres-sectOito .divImg img {
+  width: 500px;
+  height: 600px;
+}
+.sectionOito .containerUm-sectOito .divText, .sectionOito .containerDois-sectOito .divText, .sectionOito .containerTres-sectOito .divText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  gap: 30px;
+}
+.sectionOito .containerUm-sectOito .divText p:nth-child(1), .sectionOito .containerDois-sectOito .divText p:nth-child(1), .sectionOito .containerTres-sectOito .divText p:nth-child(1) {
+  font-size: 30px;
+  align-self: flex-start;
+}
+.sectionOito .containerUm-sectOito .divText p:nth-child(2), .sectionOito .containerDois-sectOito .divText p:nth-child(2), .sectionOito .containerTres-sectOito .divText p:nth-child(2) {
+  color: rgba(0, 0, 0, 0.5019607843);
+}
+.sectionOito .containerDois-sectOito {
+  padding-top: 13rem;
+  flex-direction: row-reverse;
+}
+.sectionOito .containerTres-sectOito {
+  padding: 13rem 0 4rem 0;
+}
+
+.sectionNove {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90%;
+}
+.sectionNove .divUm {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+  width: 35%;
+  height: 400px;
+}
+.sectionNove .divUm p:nth-child(1) {
+  font-size: 45px;
+}
+.sectionNove .divUm p:nth-child(2) {
+  color: rgba(0, 0, 0, 0.5019607843);
+}
+.sectionNove .divDois {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 35px;
+  width: 35%;
+  height: 400px;
+}
+.sectionNove .divDois p {
+  color: rgba(0, 0, 0, 0.5019607843);
+}
+.sectionNove .divDois p:nth-child(1) {
+  font-size: 30px;
+}
+.sectionNove .divDois button {
+  background-color: transparent;
+  border: 1px solid black;
+}
+.sectionNove .divDois button:hover {
+  color: white;
+  background-color: #690D2C;
+}
+
 button {
   width: 160px;
   height: 45px;
-}
-button:hover {
-  background-color: #690D2C;
-  border: 1px solid rgba(255, 255, 255, 0.8901960784);
-  color: rgba(255, 255, 255, 0.8901960784);
-  transition: 0.2s;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 * {
@@ -190,13 +370,4 @@ button:hover {
   font-family: "roboto";
 }
 
-@font-face {
-  font-family: "Merriweather";
-  src: url(/assets/fonts/Merriweather-Black.ttf);
-}
-@font-face {
-  font-family: "Roboto";
-  src: url(/assets/fonts/Roboto-Black.ttf);
-}
-
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/pages/index/partials/_bodyHeader.scss%22,%22../../../scss/global/_variables.scss%22,%22../../../scss/pages/index/partials/_sectionUm.scss%22,%22../../../scss/pages/index/partials/_sectionDois.scss%22,%22../../../scss/pages/index/partials/_sectionTres.scss%22,%22../../../scss/pages/index/partials/_sectionQuatro.scss%22,%22../../../scss/pages/index/partials/_sectionCinco.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22,%22../../../scss/global/_fonts.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAEA;EACI;EACA;;AAEI;EACA,kBCNQ;EDOR;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI,OCfK;EDgBL;EACA;EACA;EACA;EACA;;AAEA;EACI;;;AEzBhB;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI,ODTS;ECUT;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAGJ;EACI;EACA;;;ACnChB;EACI,kBFFY;EEGZ;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI;;AAGJ;EACI;EACA;;AAGJ;EACI;EACA;;;AC/BhB;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;;ACbZ;EACI;EACA,kBJMyB;EILzB;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAIR;EACI;EACA;EACA;EACA;EACA;;AAII;EACI,OJ7BK;EI8BL;EACA;;AAGJ;EACI,OJlCK;EImCL;;;ACvChB;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA,OLNa;;AKQb;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;;ACrBZ;EACI;EACA;;AAEA;EACI,kBNNQ;EMOR;EACA,ONLS;EMMT;;;ACVR;EACI;EACA;EACA;EACA;EACA;;;ACLJ;EACI;EACA;;AAGJ;EACI;EACA%22,%22file%22:%22index.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/pages/index/partials/_bodyHeader.scss%22,%22../../../scss/global/_variables.scss%22,%22../../../scss/pages/index/partials/_sectionUm.scss%22,%22../../../scss/pages/index/partials/_sectionDois.scss%22,%22../../../scss/pages/index/partials/_sectionTres.scss%22,%22../../../scss/pages/index/partials/_sectionQuatro.scss%22,%22../../../scss/pages/index/partials/_sectionCinco.scss%22,%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/index/partials/_sectionSeis.scss%22,%22../../../scss/pages/index/partials/_sectionSete.scss%22,%22../../../scss/pages/index/partials/_sectionOito.scss%22,%22../../../scss/pages/index/partials/_sectionNove.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAEA;EACI;EACA;;AAEI;EACA,kBCNQ;EDOR;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI,OCfK;EDgBL;EACA;EACA;EACA;EACA;;AAEA;EACI;;;AEzBhB;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI,ODTS;ECUT;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAGJ;EACI;EACA;;AAIA;EACI,kBDzCJ;EC0CI;EACA,ODxCH;ECyCG;EACA;;;AC5CpB;EACI,kBFFY;EEGZ;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI;;AAGJ;EACI;EACA;;AAGJ;EACI;EACA;;;AC/BhB;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;;ACbZ;EACI;EACA,kBJMyB;EILzB;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;AAIR;EACI;EACA;EACA;EACA;EACA;;AAII;EACI,OJ7BK;EI8BL;EACA;;AAGJ;EACI,OJlCK;EImCL;;;ACvChB;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA,OLNa;;AKQb;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;;;ACvBZ;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;ACPJ;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAGA;EACI;EACA;EACA;;AAIR;EACI;EACA;EACA;EACA;EACA;;AAGI;EACI;EACA,OPlCA;;AOqCJ;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAGJ;EACI,OP5CC;;AOkDb;EACI;EACA;EACA;;;ACzDZ;EACI,kBROyB;EQNzB;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI;EACA,ORrBA;;AQwBJ;EACI;;AAGJ;EACI;EACA,ORzBK;;;ASHrB;EACI,kBTMyB;ESLzB;;AAGA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAIR;EACI;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI;EACA;;AAGJ;EACI,OTrCC;;AS2CjB;EACI;EACA;;AAGJ;EACI;;;ACpDR;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;EACA;;AAGI;EACI;;AAGJ;EACI,OVjBK;;AUsBjB;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI,OV/BS;;AUiCT;EACI;;AAKR;EACI;EACA;;AAEA;EACI;EACA,kBVlDA;;;AWChB;EACI;EACA;EACA;EACA;;;ACNJ;EACI;EACA;EACA;EACA;EACA%22,%22file%22:%22index.css%22%7D */

@@ -37,6 +37,16 @@
                 font-size: 14px;
                 font-weight: normal;
             }
+
+            button{
+                &:hover{
+                    background-color: variables.$corSiteGlobal;
+                    border: 1px solid white;
+                    color: variables.$corTextoBranco;
+                    transition: .2s;
+                    cursor: pointer;
+                }
+            }
         }
     }
 }
