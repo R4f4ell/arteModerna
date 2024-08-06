@@ -1,7 +1,7 @@
 @use '../../../global/variables';
 @use '../../../global/fonts';
 
-.sectionNove{
+#sectionNove{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -48,8 +48,9 @@
             border: 1px solid black;
 
             &:hover{
-                color: white;
                 background-color: variables.$corSiteGlobal;
+                color: variables.$corTextoBranco;
+                border: 0px;
             }
         }
     }

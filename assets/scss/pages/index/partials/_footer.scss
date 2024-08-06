@@ -1,0 +1,54 @@
+@use '../../../global/variables';
+@use '../../../global/fonts';
+
+footer{
+    background-color: variables.$corSiteGlobal;
+    color: variables.$corTextoBranco;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .tamanhoContainer{
+        width: 90%;
+        height: 65%;
+        display: flex;
+        justify-content: center;
+        
+        .moment{
+            width: 60%;
+            
+            p{
+                font-size: 45px;
+            }
+        }
+    
+        .contacts{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .titulos{
+                font-size: 30px;
+                margin-bottom: 5px;
+            }
+
+            .phone{
+                margin-bottom: 30px;
+            }
+
+            .socials{
+                div{
+                    &:nth-child(2){
+                        display: flex;
+                        gap: 40px;
+                    }
+                }
+
+            }
+        }
+    }
+
+}

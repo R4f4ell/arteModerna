@@ -1,0 +1,54 @@
+@use '../../../global/variables';
+@use '../../../global/fonts';
+
+#sectionDez{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    .conteudoSectDez{
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+        gap: 30px;
+        font-size: 30px;
+
+        p{
+            text-align: center;
+        }
+
+        .formulario{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+
+            input{
+                width: 90%;
+                height: 50px;
+                padding: 8px;
+                font-size: 15px;
+                background-color: variables.$corInput;
+                color: rgba(128, 128, 128, 0.726);
+            
+                &::placeholder{
+                    color: rgba(128, 128, 128, 0.432);
+                }
+            }
+
+            button{
+                background-color: white;
+                border: 1px solid black;
+
+                &:hover{
+                    background-color: variables.$corSiteGlobal;
+                    color: variables.$corTextoBranco;
+                    border: 0px;
+                }
+            }
+        }
+    }
+}
