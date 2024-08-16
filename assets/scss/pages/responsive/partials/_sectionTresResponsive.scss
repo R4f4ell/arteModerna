@@ -1,0 +1,13 @@
+@use '../../../global/fonts';
+@use '../../../global/variables';
+
+
+@media (min-width: 100px) and (max-width: 600px){
+    .sectionTres{
+        
+        .imagensST{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

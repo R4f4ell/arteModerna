@@ -1,0 +1,25 @@
+@use '../../../global/fonts';
+@use '../../../global/variables';
+
+
+@media (min-width: 100px) and (max-width: 600px){
+    .sectionDois{
+        height: 80vh;
+
+        div{
+            text-align: center;
+            width: 98%;
+
+            p{
+                &:nth-child(2){
+                    font-size: 60px;
+                }
+
+                &:nth-child(3){
+                    font-size: 17px;
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
