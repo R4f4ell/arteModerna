@@ -6,20 +6,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 
     .imagemSectionQuatro{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 50%;
+        background-image: url(/assets/images/pages/index/imgSectionQuatro.webp);
+        background-size: cover;
+        width: 600px;
         height: 100%;
-
-        img{
-            max-width: 100%;
-            height: 100%;
-            border-radius: 5px;
-        }
     }
 
     .textoSectionQuatro{

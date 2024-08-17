@@ -49,6 +49,31 @@
     width: 90%;
   }
 }
+@media (min-width: 100px) and (max-width: 600px) {
+  .sectionQuatro .textoSectionQuatro {
+    margin: 40px 0;
+    width: 80%;
+  }
+  .sectionQuatro .textoSectionQuatro p:nth-child(1) {
+    font-size: 45px;
+  }
+  .sectionQuatro .textoSectionQuatro p:nth-child(2) {
+    font-size: 26px;
+  }
+  .sectionQuatro .imagemSectionQuatro {
+    width: 90%;
+    background-position: center right;
+  }
+}
+@media (min-width: 100px) and (max-width: 600px) {
+  .sectionCinco {
+    height: 500px;
+    margin-top: 25em;
+    background-image: url(/assets/images/pages/responsive/imgSectionCincoResponsive.webp);
+    background-size: cover;
+    background-position: center center;
+  }
+}
 button {
   width: 160px;
   height: 45px;
@@ -64,4 +89,4 @@ button {
   font-family: "roboto";
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/responsive/partials/_sectionUmResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionDoisResponsive.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;ACRJ;EACI;IACI;IACA;IACA;;EAEA;IACI;IACA;IACA;IACA;;EAGI;IACI;IACA;;EAGJ;IACI;;EAGJ;IACI;;;ACtBpB;EACI;IACI;;EAEA;IACI;IACA;;EAGI;IACI;;EAGJ;IACI;IACA;;;ACjBpB;EACI;EACA;EACA;EACA;;;ACNJ;EACI;EACA;EACA;EACA;EACA%22,%22file%22:%22responsive.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/responsive/partials/_sectionUmResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionDoisResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionQuatroResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionCincoResponsive.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;ACRJ;EACI;IACI;IACA;IACA;;EAEA;IACI;IACA;IACA;IACA;;EAGI;IACI;IACA;;EAGJ;IACI;;EAGJ;IACI;;;ACtBpB;EACI;IACI;;EAEA;IACI;IACA;;EAGI;IACI;;EAGJ;IACI;IACA;;;ACnBpB;EAEQ;IACI;IACA;;EAGI;IACI;;EAGJ;IACI;;EAKZ;IACI;IACA;;;ACnBZ;EACI;IACI;IACA;IACA;IACA;IACA;;;ACJR;EACI;EACA;EACA;EACA;;;ACNJ;EACI;EACA;EACA;EACA;EACA%22,%22file%22:%22responsive.css%22%7D */

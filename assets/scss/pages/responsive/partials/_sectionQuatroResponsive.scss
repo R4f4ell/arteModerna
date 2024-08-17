@@ -1,0 +1,23 @@
+@media (min-width: 100px) and (max-width: 600px){
+    .sectionQuatro{
+        .textoSectionQuatro{
+            margin: 40px 0;
+            width: 80%;
+
+            p{
+                &:nth-child(1){
+                    font-size: 45px;
+                }
+    
+                &:nth-child(2){
+                    font-size: 26px;
+                }
+            }
+        }
+
+        .imagemSectionQuatro{
+            width: 90%;
+            background-position: center right;
+        }
+    }
+}
