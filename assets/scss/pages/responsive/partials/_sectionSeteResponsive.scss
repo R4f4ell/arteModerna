@@ -1,0 +1,17 @@
+@use '../../../global/variables';
+@use '../../../global/fonts';
+
+@media (min-width: 100px) and (max-width: 600px){
+    #sectionSete{
+        .textoSectionSete{
+            gap: 15px;
+            width: 80%;
+
+            p{    
+                &:nth-child(3){
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

@@ -4,7 +4,6 @@
 .sectionOito{
     background-color: variables.$corSectionBrancoMaisEscuro;
     width: 100%;
-    
 
     .containerUm-sectOito, .containerDois-sectOito, .containerTres-sectOito{
         display: flex;
@@ -20,10 +19,25 @@
             width: 40%;
             height: 100%;
 
-            img{
+            .imagemDarkness{
                 width: 500px;
                 height: 600px;
+                background-image: url(/assets/images/pages/index/imgDarkness.webp);
+                background-size: cover;
             }
+            .imagemAfter{
+                width: 500px;
+                height: 600px;
+                background-image: url(/assets/images/pages/index/imgAfter.webp);
+                background-size: cover;
+            }
+            .imagemTrue{
+                width: 500px;
+                height: 600px;
+                background-image: url(/assets/images/pages/index/imgTrue.webp);
+                background-size: cover;
+            }
+
         }
 
         .divText{

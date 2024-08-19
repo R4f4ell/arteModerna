@@ -1,0 +1,35 @@
+@media (min-width: 100px) and (max-width: 600px){
+    #sectionSeis{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70rem;
+        gap: 5px;
+
+        .centro-img{
+            width: 100%;
+            
+
+            .imgJulia{
+                width: 90%;
+            }
+        }
+
+        .centro-texto{
+            width: 90%;
+
+            div{
+                &:nth-child(2){
+                    h2{
+                        font-size: 40px;
+                    }
+
+                    p{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

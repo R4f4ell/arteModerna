@@ -50,6 +50,13 @@
   }
 }
 @media (min-width: 100px) and (max-width: 600px) {
+  .sectionTres .imagensST {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+}
+@media (min-width: 100px) and (max-width: 600px) {
   .sectionQuatro .textoSectionQuatro {
     margin: 40px 0;
     width: 80%;
@@ -74,6 +81,46 @@
     background-position: center center;
   }
 }
+@media (min-width: 100px) and (max-width: 600px) {
+  #sectionSeis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70rem;
+    gap: 5px;
+  }
+  #sectionSeis .centro-img {
+    width: 100%;
+  }
+  #sectionSeis .centro-img .imgJulia {
+    width: 90%;
+  }
+  #sectionSeis .centro-texto {
+    width: 90%;
+  }
+  #sectionSeis .centro-texto div:nth-child(2) h2 {
+    font-size: 40px;
+  }
+  #sectionSeis .centro-texto div:nth-child(2) p {
+    font-size: 20px;
+  }
+}
+@media (min-width: 100px) and (max-width: 600px) {
+  #sectionSete .textoSectionSete {
+    gap: 15px;
+    width: 80%;
+  }
+  #sectionSete .textoSectionSete p:nth-child(3) {
+    font-size: 20px;
+  }
+}
+@media (min-width: 100px) and (max-width: 600px) {
+  .containerUm-sectOito, .containerDois-sectOito, .containerTres-sectOito {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}
 button {
   width: 160px;
   height: 45px;
@@ -89,4 +136,4 @@ button {
   font-family: "roboto";
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/responsive/partials/_sectionUmResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionDoisResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionQuatroResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionCincoResponsive.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;ACRJ;EACI;IACI;IACA;IACA;;EAEA;IACI;IACA;IACA;IACA;;EAGI;IACI;IACA;;EAGJ;IACI;;EAGJ;IACI;;;ACtBpB;EACI;IACI;;EAEA;IACI;IACA;;EAGI;IACI;;EAGJ;IACI;IACA;;;ACnBpB;EAEQ;IACI;IACA;;EAGI;IACI;;EAGJ;IACI;;EAKZ;IACI;IACA;;;ACnBZ;EACI;IACI;IACA;IACA;IACA;IACA;;;ACJR;EACI;EACA;EACA;EACA;;;ACNJ;EACI;EACA;EACA;EACA;EACA%22,%22file%22:%22responsive.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/responsive/partials/_sectionUmResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionDoisResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionTresResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionQuatroResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionCincoResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionSeisResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionSeteResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionOitoResponsive.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;ACRJ;EACI;IACI;IACA;IACA;;EAEA;IACI;IACA;IACA;IACA;;EAGI;IACI;IACA;;EAGJ;IACI;;EAGJ;IACI;;;ACtBpB;EACI;IACI;;EAEA;IACI;IACA;;EAGI;IACI;;EAGJ;IACI;IACA;;;ACfpB;EAGQ;IACI;IACA;IACA;;;ACPZ;EAEQ;IACI;IACA;;EAGI;IACI;;EAGJ;IACI;;EAKZ;IACI;IACA;;;ACnBZ;EACI;IACI;IACA;IACA;IACA;IACA;;;ACTR;EACI;IACI;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;;EAGA;IACI;;EAIR;IACI;;EAIQ;IACI;;EAGJ;IACI;;;ACzBxB;EAEQ;IACI;IACA;;EAGI;IACI;;;ACRpB;EACI;IACI;IACA;;;ACJR;EACI;EACA;EACA;EACA;;;ACNJ;EACI;EACA;EACA;EACA;EACA%22,%22file%22:%22responsive.css%22%7D */

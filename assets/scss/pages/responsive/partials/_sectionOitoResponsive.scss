@@ -1,0 +1,9 @@
+@use '../../../global/variables';
+@use '../../../global/fonts';
+
+@media (min-width: 100px) and (max-width: 600px){
+    .containerUm-sectOito, .containerDois-sectOito, .containerTres-sectOito{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+}
