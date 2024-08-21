@@ -1,0 +1,59 @@
+@use '../../../global/fonts';
+@use '../../../global/variables';
+
+@media (min-width: 100px) and (max-width: 600px){
+    #sectionNove{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 90%;
+        gap: 20px;
+
+        .divUm{
+            width: 90%;
+            height: unset;
+
+            p{
+                &:nth-child(1){
+                    font-size: 50px;
+                }
+    
+                &:nth-child(2){
+                    font-size: 23px;
+                    color: variables.$corTextoPretoFraco;
+                }
+            }
+        }
+
+        .divDois{
+            width: 90%;
+            height: unset;
+
+            p{
+                &:nth-child(1){
+                    font-size: 30px;
+                }
+                &:nth-child(2){
+                    font-size: 23px;
+                }
+                &:nth-child(3){
+                    font-size: 23px;
+                }
+                &:nth-child(4){
+                    font-size: 23px;
+                }
+                &:nth-child(5){
+                    font-size: 23px;
+                }
+            }
+
+            button{
+                background-color: variables.$corSiteGlobal;
+                color: variables.$corTextoBranco;
+                border: 0px;
+                width: 180px;
+            }
+        }
+    }
+}

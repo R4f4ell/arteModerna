@@ -1,14 +1,24 @@
 @use '../../../global/fonts';
-@use '../../../global/variables';
-
 
 @media (min-width: 100px) and (max-width: 600px){
     .sectionTres{
-        
+        margin: 4rem 0;
+
         .imagensST{
             display: flex;
             flex-direction: column;
-            gap: 5rem;
+            justify-content: center;
+
+            img{
+                width: 90%;
+
+                &:nth-child(1){
+                    background-image: url(/assets/images/pages/responsive/imgSectionTresResponsiveEscultura.webp);
+                }
+                &:nth-child(2){
+                    background-image: url(/assets/images/pages/responsive/imgSectionTresResponsiveMuseu.webp);
+                }
+            }
         }
     }
 }
