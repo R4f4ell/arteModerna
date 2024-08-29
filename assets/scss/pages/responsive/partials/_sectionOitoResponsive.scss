@@ -2,8 +2,52 @@
 @use '../../../global/fonts';
 
 @media (min-width: 100px) and (max-width: 600px){
-    .containerUm-sectOito, .containerDois-sectOito, .containerTres-sectOito{
+    .container{
         flex-direction: column-reverse;
         justify-content: center;
+
+        .divImg{
+            width: 90%;
+
+            .imagemDarkness{
+                width: 380px;
+                height: 450px;
+                background-image: url(/assets/images/pages/responsive/imgDarknessResponsive.webp);
+                background-size: cover; 
+            }
+
+            .imagemAfter{
+                width: 380px;
+                height: 450px;
+                background-image: url(/assets/images/pages/responsive/imgAfterResponsive.webp);
+                background-size: cover; 
+            }
+
+            .imagemTrue{
+                width: 380px;
+                height: 450px;
+                background-image: url(/assets/images/pages/responsive/imgTrueResponsive.webp);
+                background-size: cover; 
+            }
+        }
+
+        .divText{
+            padding: 0 30px;
+
+            p{
+                &:nth-child(1){
+                    margin-top: 15px;
+                }
+
+                &:nth-child(2){
+                    font-size: 19px;
+                    text-align: justify;
+                }    
+            }
+        }
+
+        &:nth-child(2){
+            flex-wrap: wrap-reverse;
+        }
     }
 }

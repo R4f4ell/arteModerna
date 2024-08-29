@@ -10,9 +10,7 @@
     
     .conteudoSectDez{
         display: flex;
-        flex-direction: column;
-        width: 550
-        px;
+        flex-direction: column;        
         gap: 30px;
         font-size: 30px;
 
@@ -28,12 +26,13 @@
             align-items: center;
 
             input{
+                background-color: variables.$corInput;
+                color: rgba(128, 128, 128, 0.726);
                 width: 90%;
                 height: 50px;
                 padding: 8px;
                 font-size: 15px;
-                background-color: variables.$corInput;
-                color: rgba(128, 128, 128, 0.726);
+                border-radius: 10px;
             
                 &::placeholder{
                     color: rgba(128, 128, 128, 0.432);

@@ -166,9 +166,43 @@
   }
 }
 @media (min-width: 100px) and (max-width: 600px) {
-  .containerUm-sectOito, .containerDois-sectOito, .containerTres-sectOito {
+  .container {
     flex-direction: column-reverse;
     justify-content: center;
+  }
+  .container .divImg {
+    width: 90%;
+  }
+  .container .divImg .imagemDarkness {
+    width: 380px;
+    height: 450px;
+    background-image: url(/assets/images/pages/responsive/imgDarknessResponsive.webp);
+    background-size: cover;
+  }
+  .container .divImg .imagemAfter {
+    width: 380px;
+    height: 450px;
+    background-image: url(/assets/images/pages/responsive/imgAfterResponsive.webp);
+    background-size: cover;
+  }
+  .container .divImg .imagemTrue {
+    width: 380px;
+    height: 450px;
+    background-image: url(/assets/images/pages/responsive/imgTrueResponsive.webp);
+    background-size: cover;
+  }
+  .container .divText {
+    padding: 0 30px;
+  }
+  .container .divText p:nth-child(1) {
+    margin-top: 15px;
+  }
+  .container .divText p:nth-child(2) {
+    font-size: 19px;
+    text-align: justify;
+  }
+  .container:nth-child(2) {
+    flex-wrap: wrap-reverse;
   }
 }
 @media (min-width: 100px) and (max-width: 600px) {
@@ -219,7 +253,8 @@
 }
 @media (min-width: 100px) and (max-width: 600px) {
   .conteudoSectDez p {
-    font: 10px;
+    margin: 0 20px;
+    font-size: 22px;
   }
 }
 button {
@@ -237,4 +272,4 @@ button {
   font-family: "roboto";
 }
 
-/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/pages/responsive/partials/_headerResponsive.scss%22,%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/responsive/partials/_sectionUmResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionDoisResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionTresResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionQuatroResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionCincoResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionSeisResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionSeteResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionOitoResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionNoveResponsive.scss%22,%22../../../scss/global/_variables.scss%22,%22../../../scss/pages/responsive/partials/_sectionDezResponsive.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;IACI;;EAGJ;IACI;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;IACA;;EAGJ;IACI;;EAIR;IACI;;;AC5BR;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;ACRJ;EACI;IACI;IACA;IACA;;EAEA;IACI;IACA;IACA;IACA;;EAGI;IACI;IACA;;EAGJ;IACI;;EAGJ;IACI;;;ACtBpB;EACI;IACI;;EAEA;IACI;IACA;;EAGI;IACI;;EAGJ;IACI;IACA;;;ACjBpB;EACI;IACI;;EAEA;IACI;IACA;IACA;;EAEA;IACI;;EAEA;IACI;;EAEJ;IACI;;;ACfpB;EACI;IACI;;EAEA;IACI;IACA;IACA;IACA;;EAGI;IACI;IACA;;EAGJ;IACI;IACA;;EAKZ;IACI;IACA;IACA;;;AC1BZ;EACI;IACI;IACA;IACA;IACA;;;ACNR;EACI;IACI;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;;EAGA;IACI;;EAIR;IACI;;EAIQ;IACI;;EAGJ;IACI;;;AC5BxB;EACI;IACI;;EAEA;IACI;IACA;;EAGI;IACI;IACA;;;ACVpB;EACI;IACI;IACA;;;ACHR;EACI;IACI;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;IACA;;EAGI;IACI;;EAGJ;IACI;IACA,OCjBC;;EDsBb;IACI;IACA;;EAGI;IACI;;EAEJ;IACI;;EAEJ;IACI;;EAEJ;IACI;;EAEJ;IACI;;EAIR;IACI,kBClDA;IDmDA,OChDC;IDiDD;IACA;;;AEnDhB;EAEQ;IACI;;;ACJZ;EACI;EACA;EACA;EACA;;;ACNJ;EACI;EACA;EACA;EACA;EACA%22,%22file%22:%22responsive.css%22%7D */
+/*# sourceMappingURL=data:application/json;charset=utf-8,%7B%22version%22:3,%22sourceRoot%22:%22%22,%22sources%22:%5B%22../../../scss/pages/responsive/partials/_headerResponsive.scss%22,%22../../../scss/global/_fonts.scss%22,%22../../../scss/pages/responsive/partials/_sectionUmResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionDoisResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionTresResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionQuatroResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionCincoResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionSeisResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionSeteResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionOitoResponsive.scss%22,%22../../../scss/pages/responsive/partials/_sectionNoveResponsive.scss%22,%22../../../scss/global/_variables.scss%22,%22../../../scss/pages/responsive/partials/_sectionDezResponsive.scss%22,%22../../../scss/global/_elements.scss%22,%22../../../scss/global/_normalize.scss%22%5D,%22names%22:%5B%5D,%22mappings%22:%22AAAA;EACI;IACI;;EAGJ;IACI;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;IACA;;EAGJ;IACI;;EAIR;IACI;;;AC5BR;EACI;EACA;EACA;EACA;;AAGJ;EACI;EACA;EACA;EACA;;ACRJ;EACI;IACI;IACA;IACA;;EAEA;IACI;IACA;IACA;IACA;;EAGI;IACI;IACA;;EAGJ;IACI;;EAGJ;IACI;;;ACtBpB;EACI;IACI;;EAEA;IACI;IACA;;EAGI;IACI;;EAGJ;IACI;IACA;;;ACjBpB;EACI;IACI;;EAEA;IACI;IACA;IACA;;EAEA;IACI;;EAEA;IACI;;EAEJ;IACI;;;ACfpB;EACI;IACI;;EAEA;IACI;IACA;IACA;IACA;;EAGI;IACI;IACA;;EAGJ;IACI;IACA;;EAKZ;IACI;IACA;IACA;;;AC1BZ;EACI;IACI;IACA;IACA;IACA;;;ACNR;EACI;IACI;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;;EAGA;IACI;;EAIR;IACI;;EAIQ;IACI;;EAGJ;IACI;;;AC5BxB;EACI;IACI;;EAEA;IACI;IACA;;EAGI;IACI;IACA;;;ACVpB;EACI;IACI;IACA;;EAEA;IACI;;EAEA;IACI;IACA;IACA;IACA;;EAGJ;IACI;IACA;IACA;IACA;;EAGJ;IACI;IACA;IACA;IACA;;EAIR;IACI;;EAGI;IACI;;EAGJ;IACI;IACA;;EAKZ;IACI;;;AC9CZ;EACI;IACI;IACA;IACA;IACA;IACA;IACA;;EAEA;IACI;IACA;;EAGI;IACI;;EAGJ;IACI;IACA,OCjBC;;EDsBb;IACI;IACA;;EAGI;IACI;;EAEJ;IACI;;EAEJ;IACI;;EAEJ;IACI;;EAEJ;IACI;;EAIR;IACI,kBClDA;IDmDA,OChDC;IDiDD;IACA;;;AEnDhB;EAEQ;IACI;IACA;;;ACLZ;EACI;EACA;EACA;EACA;;;ACNJ;EACI;EACA;EACA;EACA;EACA%22,%22file%22:%22responsive.css%22%7D */
